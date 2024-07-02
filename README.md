@@ -12,13 +12,11 @@ PFS視点で弾を敵に向けて発射し，敵を倒すゲームです．
 
 # Features
 
-"hoge"のセールスポイントや差別化などを説明する
+特徴
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* Unity 2022.
+* Unity 2022.3.32f1
 
 # Installation
 
