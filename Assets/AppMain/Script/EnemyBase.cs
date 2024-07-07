@@ -76,10 +76,15 @@ public class EnemyBase : MonoBehaviour
     /// 死亡時処理.
     /// </summary>
     // ---------------------------------------------------------------
-    void OnDead()
+    public virtual void OnDead()
     {
         Debug.Log( gameObject.name + "を倒しました" );
         Destroy( gameObject );
+
+        GameObject UI = GameObject.Find ("PlayerUICanvas");
+        Manager codeUI = UI.GetComponent<Manager>();
+        //UI.GetComponent<UIManager>
+        codeUI.RemainEnemies += -1;
     }
 
     // ---------------------------------------------------------------
@@ -91,7 +96,7 @@ public class EnemyBase : MonoBehaviour
     {
         // 指定時間待機してフラグを戻す.
         canHit = false;
-        yield return new WaitForSeconds( 0.5f );
+        yield return new WaitForSeconds( 0.001f );
         canHit = true;
     }
 }

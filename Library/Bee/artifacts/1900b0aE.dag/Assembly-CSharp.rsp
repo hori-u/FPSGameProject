@@ -331,6 +331,8 @@
 -r:"D:/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"D:/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"D:/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -352,9 +354,13 @@
 "Assets/AppMain/Script/Ball.cs"
 "Assets/AppMain/Script/CameraPos.cs"
 "Assets/AppMain/Script/EnemyBase.cs"
+"Assets/AppMain/Script/EnemyBat.cs"
 "Assets/AppMain/Script/PayerCam.cs"
 "Assets/AppMain/Script/PlayerMovement.cs"
 "Assets/AppMain/Script/Projectile Gun.cs"
+"Assets/AppMain/Script/ResetButton.cs"
+"Assets/AppMain/Script/TitleButton.cs"
+"Assets/AppMain/Script/UIManager.cs"
 "Assets/SkythianCat/Glowing_Forest/Scripts/WaterGroup.cs"
 -langversion:9.0
 /deterministic

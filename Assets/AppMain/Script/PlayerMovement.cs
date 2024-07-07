@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    public float upForce = 6;
 
     void Start()
     {
@@ -41,6 +42,12 @@ public class PlayerMovement : MonoBehaviour
 
         ProcessInput();
         SpeedControl();
+
+        if(Input.GetKeyDown("space") && grounded) {
+            Debug.Log("space");
+            //rb.AddForce(new Vector3(0, upForce, 0));
+            rb.velocity = Vector3.up * upForce;
+        }
     }
 
 
