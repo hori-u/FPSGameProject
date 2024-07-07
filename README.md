@@ -24,8 +24,8 @@ https://github.com/hori-u/FPSGameProject/assets/143776523/ae7ecf9c-39c9-4a18-b80
 * Unity hub download : 
 https://unity.com/ja/download
 
-* 実行ファイル
-https://drive.google.com/drive/u/1/folders/1jo7Z6wukEIX9Yt0jbb5FTiyRzPGUk6jL
+* Buildファイル
+https://drive.google.com/drive/folders/1jo7Z6wukEIX9Yt0jbb5FTiyRzPGUk6jL?usp=sharing
 
 # Usage
 
