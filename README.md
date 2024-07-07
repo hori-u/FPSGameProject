@@ -18,18 +18,29 @@ https://github.com/hori-u/FPSGameProject/assets/143776523/ae7ecf9c-39c9-4a18-b80
 # Requirement
 
 * Unity 2022.3.32f1
+* Windfows 64-bit
 
 # Installation
 
-* Unity hub download : 
-https://unity.com/ja/download
+* Unityで実行
+  * Unity hub download : 
+  https://unity.com/ja/download
+
+  * git clone :
+  ```
+  git clone https://github.com/hori-u/FPSGameProject.git
+  ```
 
 * Buildファイル
-https://drive.google.com/drive/folders/1jo7Z6wukEIX9Yt0jbb5FTiyRzPGUk6jL?usp=sharing
+  * https://drive.google.com/drive/folders/1jo7Z6wukEIX9Yt0jbb5FTiyRzPGUk6jL?usp=sharing
 
 # Usage
 
-git clone https://github.com/hori-u/FPSGameProject.git
+* Unityで実行
+  * Unity Hubでプロジェクトの追加を行う
+ 
+* Buildファイル
+  * FPSGameProject.exeを実行
 
 # Note
 
@@ -38,8 +49,6 @@ git clone https://github.com/hori-u/FPSGameProject.git
 今後の実装として，自身のHPや敵の攻撃，自身のHPが0になった際のゲームオーバー画面を実装したいと考えています．
 
 # Author
-
-作成情報を列挙する
 
 * 作成者 : 堀 悠人（Hori Yuto）
 * 所属 : 岡山大学大学院環境生命自然科学研究科（Graduate School of Environment, Life, Natural Science and Technology, Okayama University）
