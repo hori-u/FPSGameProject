@@ -4,42 +4,51 @@ PFS視点で弾を敵に向けて発射し，敵を倒すゲームです．
 
 # DEMO
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+https://github.com/hori-u/FPSGameProject/assets/143776523/ae7ecf9c-39c9-4a18-b807-78268d439e9e
 
 * 移動 : WASD
+* ジャンプ : space
 * 視点移動 : マウス
 * 射撃 : マウス左クリック
 
 # Features
 
-特徴
+物理エンジンを活用したリアルな動作が自慢です．また，射撃間隔やリロード時間，マガジンのサイズを設定しており，より現実的な動作を可能にしています．
 
 # Requirement
 
 * Unity 2022.3.32f1
+* Windfows 64-bit
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
+* Unityで実行
+  * Unity hub download : 
+  https://unity.com/ja/download
 
-* Unity hub download : 
-https://unity.com/ja/download
+  * git clone :
+  ```
+  git clone https://github.com/hori-u/FPSGameProject.git
+  ```
 
-
+* Buildファイル
+  * https://drive.google.com/drive/folders/1jo7Z6wukEIX9Yt0jbb5FTiyRzPGUk6jL?usp=sharing
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-git clone https://github.com/hori-u/FPSGameProject.git
+* Unityで実行
+  * Unity Hubでプロジェクトの追加を行う
+ 
+* Buildファイル
+  * FPSGameProject.exeを実行
 
 # Note
 
-注意点などがあれば書く
+現在の実装ではプレーヤーが範囲外に出るとステージから落下していしまう問題点があります．
+
+今後の実装として，自身のHPや敵の攻撃，自身のHPが0になった際のゲームオーバー画面を実装したいと考えています．
 
 # Author
-
-作成情報を列挙する
 
 * 作成者 : 堀 悠人（Hori Yuto）
 * 所属 : 岡山大学大学院環境生命自然科学研究科（Graduate School of Environment, Life, Natural Science and Technology, Okayama University）
