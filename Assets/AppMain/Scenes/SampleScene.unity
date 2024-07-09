@@ -1739,7 +1739,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   orientation: {fileID: 1452965203}
-  upForce: 10
+  upForce: 5
 --- !u!4 &1756783912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010273486942, guid: 67f0474ce7d8d344fa04ba561d36d761, type: 3}
